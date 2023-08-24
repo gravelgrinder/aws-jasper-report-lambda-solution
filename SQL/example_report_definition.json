@@ -1,0 +1,12 @@
+{
+    "ReportId": "0001",
+    "ReportName": "MyFirstReport",
+    "ExecutionType": "OnDemand",
+    "ExecutionFrequency": "*/5 * * * *",
+    "Enabled": "true",
+    "ReportDefinitionPath": "s3://{s3InputBucket}/reportDefinitions/MyFirstReport.jrxml",
+    "Parameters": {},
+    "ReportOutputPath": "s3://{s3OutputBucket}/ARISE/",
+    "ReportOutputFileType": "PDF",
+    "ReportOutputFileName": "MyFirstReport.pdf"
+}
